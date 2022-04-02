@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'Build'
-		bat "echo Build"
+		bat "echo 'Build triggered from github'"
 		bat "dir"
       }
     }
